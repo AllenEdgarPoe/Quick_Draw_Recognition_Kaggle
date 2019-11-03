@@ -23,3 +23,13 @@ import ast
 import numpy as np
 import tensorflow as tf
 ```
+
+### Data Preprocessing Specific 
+1. 가장 먼저 PIL 라이브러리의 ImageDraw를 활용하여 주어진 데이터를 Height=64, Width=64, Channel=1 의 array로 바꿈
+2. One-hot encoding 실행. 
+3. shuffle된 데이터 중 recognized가 True일때, df['drawing']을 ast.literal_eval 함수를 활용하여 string이 아닌 배열로 변환
+4. 3에서 변환된 데이터를 X라는 리스트 데이터에 저장함 
+5. 4에서 받은 데이터를 (64,64)로 reshape하여 새로운 X2 배열에 저장
+6. 원핫코딩한 y label을 Y2라는 배열에 저장함 
+
+***원래는 train_0.csv.gz 파일로 3~6 번째 단계를 실행하지만 Kaggle에서 데이터는 read-only data 이므로 horse.csv를 부득이하게 사용***
