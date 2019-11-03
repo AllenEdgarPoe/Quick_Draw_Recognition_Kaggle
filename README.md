@@ -15,9 +15,11 @@
 3. 네트워크 구성은 아래와 같음 <br>**** conv - relu - conv - relu - pool - <br> conv - relu - conv - relu - pool - <br> conv - relu - conv - relu - pool - <br>affine - relu - dropout - affine - dropout - softmax****<br>hidden_size = 50 
 
 #### Required Libraries
+```
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import ast
 import numpy as np
 import tensorflow as tf
+```
