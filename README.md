@@ -32,4 +32,3 @@ import tensorflow as tf
 5. 4에서 받은 데이터를 (64,64)로 reshape하여 새로운 X2 배열에 저장
 6. 원핫코딩한 y label을 Y2라는 배열에 저장함 
 
-***원래는 train_0.csv.gz 파일로 3~6 번째 단계를 실행하지만 Kaggle에서 데이터는 read-only data 이므로 horse.csv를 부득이하게 사용***
