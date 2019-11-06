@@ -1,10 +1,10 @@
 # Quick_Draw_Recognition_Kaggle
 
-![test](https://user-images.githubusercontent.com/43398106/68266393-5769d400-0092-11ea-85b9-bc7b466d6799.gif)
-
 ### Easy Data Preprocessing
 --by Joo Kyung Song, <br>
 --Submit to "Programmers, Winter Coding" 
+
+![test](https://user-images.githubusercontent.com/43398106/68266393-5769d400-0092-11ea-85b9-bc7b466d6799.gif)
 
 ### 데이터 전처리
 1. 데이터 규모 확인<br>
