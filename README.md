@@ -1,5 +1,7 @@
 # Quick_Draw_Recognition_Kaggle
 
+![test](https://user-images.githubusercontent.com/43398106/68266393-5769d400-0092-11ea-85b9-bc7b466d6799.gif)
+
 ### Easy Data Preprocessing
 --by Joo Kyung Song, <br>
 --Submit to "Programmers, Winter Coding" 
@@ -46,4 +48,6 @@ from keras.metrics import top_k_categorical_accuracy
 4. 3에서 변환된 데이터를 X라는 리스트 데이터에 저장함 
 5. 4에서 받은 데이터를 (64,64)로 reshape하여 새로운 X2 배열에 저장
 6. 원핫코딩한 y label을 Y2라는 배열에 저장함 
+
+
 
