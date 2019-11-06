@@ -4,7 +4,7 @@
 --by Joo Kyung Song, <br>
 --Submit to "Programmers, Winter Coding" 
 
-![test](https://user-images.githubusercontent.com/43398106/68266393-5769d400-0092-11ea-85b9-bc7b466d6799.gif)
+![test_img](https://user-images.githubusercontent.com/43398106/68266822-9c423a80-0093-11ea-8aee-dfd7fb7fce4d.png)
 
 ### 데이터 전처리
 1. 데이터 규모 확인<br>
@@ -49,5 +49,6 @@ from keras.metrics import top_k_categorical_accuracy
 5. 4에서 받은 데이터를 (64,64)로 reshape하여 새로운 X2 배열에 저장
 6. 원핫코딩한 y label을 Y2라는 배열에 저장함 
 
-
+### Data Draw
+![test](https://user-images.githubusercontent.com/43398106/68266393-5769d400-0092-11ea-85b9-bc7b466d6799.gif)
 
