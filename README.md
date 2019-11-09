@@ -12,11 +12,9 @@
 3. PIL 라이브러리 활용해 64*64 이미지로 convert 하여 그림으로 나타냄.<br>4. one_hot_coding 기법 이용: 324개의 y_label을 np.eye(324)를 사용해서 원-핫인코딩함. <br>
 
 
-### CNN 구현-- keras 라이브러리 사용 
-네트워크 구성은 아래와 같음 <br>
-**conv - relu - zeroPadding - <br>
-conv - relu - maxPooling - <br>
-dropout - flatten - affine - softmax**
+### CNN 구현 -- keras 라이브러리 사용 
+
+네트워크 구성은 아래와 같음 <br>**** conv - relu - conv - relu - pool - <br> conv - relu - conv - relu - pool - <br> conv - relu - conv - relu - pool - <br>affine - relu - dropout - affine - dropout - softmax****<br>
 
 optimizer 기법은 adamOptimizer 사용, 오차계산법은 cross-entropy 사용함. 
 
