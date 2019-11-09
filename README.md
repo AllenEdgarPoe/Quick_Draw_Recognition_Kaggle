@@ -14,7 +14,8 @@
 
 ### CNN 구현 -- keras 라이브러리 사용 
 
-네트워크 구성은 아래와 같음 <br>**** conv - relu - conv - relu - pool - <br> conv - relu - conv - relu - pool - <br> conv - relu - conv - relu - pool - <br>affine - relu - dropout - affine - dropout - softmax****<br>
+네트워크 구성은 아래와 같음 <br>
+*** conv - relu - conv - relu - pool - <br> conv - relu - conv - relu - pool - <br> conv - relu - conv - relu - pool - <br>affine - relu - dropout - affine - dropout - softmax***<br>
 
 optimizer 기법은 adamOptimizer 사용, 오차계산법은 cross-entropy 사용함. 
 
